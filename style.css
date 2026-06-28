@@ -103,3 +103,40 @@ h1{
     transform:translateY(-8px);
     box-shadow:0 0 30px #3cbcff;
 }
+.hidden{
+    display:none;
+}
+
+#page{
+    max-width:900px;
+    margin:40px auto;
+    padding:30px;
+    background:#102544;
+    border:2px solid #3cbcff;
+    border-radius:20px;
+    box-shadow:0 0 30px #3cbcff;
+}
+
+#backButton{
+    background:#26a8ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+#backButton:hover{
+    background:#1b8de0;
+}
+
+#pageTitle{
+    margin-bottom:20px;
+    color:#5fd4ff;
+}
+
+#pageContent{
+    font-size:18px;
+    line-height:1.7;
+}
