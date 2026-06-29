@@ -140,3 +140,40 @@ h1{
     font-size:18px;
     line-height:1.7;
 }
+.icon{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.card p{
+    color:#cfd8e3;
+    font-size:15px;
+    margin:15px 0 25px;
+    line-height:1.5;
+}
+
+.openButton{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:#2daeff;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.openButton:hover{
+    background:#58c5ff;
+    transform:scale(1.03);
+    box-shadow:0 0 20px #2daeff;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:320px;
+}
